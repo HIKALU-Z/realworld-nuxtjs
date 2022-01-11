@@ -34,7 +34,7 @@ export const deleteFavorite = slug => {
   })
 }
 
-// 获取文章详情
+// 获取文章-详情
 export const getArticle = slug => {
   return request({
     method: 'GET',
